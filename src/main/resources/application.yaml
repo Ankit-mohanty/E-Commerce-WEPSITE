@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: ECommerce
+  datasource:
+    url: "jdbc:mysql://localhost:3306/kart"
+    username: "root"
+    password: "root"
+  jpa:
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+server:
+  port: 1200
